@@ -1,0 +1,61 @@
+[
+{
+"timestamp": "2026-06-23T09:15:00Z",
+"commodity": "Brent oil",
+"current_price_usd": 84.25,
+"previous_price_usd": 82.90,
+"change_usd": 1.35,
+"change_percent": 1.63,
+"event_type": "price_increase",
+"severity": "medium",
+"alert_reason": "Brent price moved above the configured intraday threshold.",
+"business_relevance": [
+"procurement_timing",
+"supplier_quotation_review",
+"commercial_cost_planning"
+],
+"notification_channel": "telegram",
+"notification_status": "sent",
+"human_review_required": true
+},
+{
+"timestamp": "2026-06-23T11:40:00Z",
+"commodity": "Brent oil",
+"current_price_usd": 79.80,
+"previous_price_usd": 81.10,
+"change_usd": -1.30,
+"change_percent": -1.60,
+"event_type": "price_decrease",
+"severity": "medium",
+"alert_reason": "Brent price moved below the configured intraday threshold.",
+"business_relevance": [
+"procurement_timing",
+"supplier_price_assumptions",
+"upcoming_purchase_review"
+],
+"notification_channel": "telegram",
+"notification_status": "sent",
+"human_review_required": true
+},
+{
+"timestamp": "2026-06-23T18:00:00Z",
+"commodity": "Brent oil",
+"current_price_usd": 82.45,
+"opening_reference_usd": 81.90,
+"daily_high_usd": 83.10,
+"daily_low_usd": 81.70,
+"change_usd": 0.55,
+"change_percent": 0.67,
+"event_type": "daily_summary",
+"severity": "low",
+"alert_reason": "Daily market summary generated for business review.",
+"business_relevance": [
+"management_reporting",
+"procurement_visibility",
+"commercial_planning"
+],
+"notification_channel": "telegram",
+"notification_status": "sent",
+"human_review_required": false
+}
+]
